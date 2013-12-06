@@ -8,7 +8,7 @@ package Win32::Shortcut;
 #
 #######################################################################
 
-$VERSION = "0.07";
+$VERSION = "0.08";
 
 require Exporter;
 require DynaLoader;
@@ -438,7 +438,7 @@ can be collapsed to:
 
 Closes a shortcut object. Note that it is not "strictly" required to
 close the objects you created, since the Win32::Shortcut objects are
-automatically closed when the program ends (or when you elsehow destroy
+automatically closed when the program ends (or when you somehow destroy
 such an object).
 
 Note also that a shortcut is not automatically saved when it is closed,
@@ -734,6 +734,8 @@ First implementation of the IShellLink interface (wow, it works!); can
 
 Aldo Calpini L<dada@perl.it>
 
+Distributed under the terms of Larry Wall's Artistic License.
+
 =head1 CREDITS
 
 Thanks to: Jesse Dougherty, Dave Roth, ActiveWare, and the
@@ -744,9 +746,7 @@ Perl-Win32-Users community.
 I<This program is FREE; you can redistribute, modify, disassemble, or
 even reverse engineer this software at your will. Keep in mind,
 however, that NOTHING IS GUARANTEED to work and everything you do is AT
-YOUR OWN RISK - I will not take responsability for any damage, loss of
+YOUR OWN RISK - I will not take responsibility for any damage, loss of
 money and/or health that may arise from the use of this program!>
-
-This is distributed under the terms of Larry Wall's Artistic License.
 
 =cut
